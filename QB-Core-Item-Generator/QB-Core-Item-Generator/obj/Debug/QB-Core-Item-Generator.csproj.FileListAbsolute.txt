@@ -1,0 +1,15 @@
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\bin\Debug\QB-Core-Item-Generator.exe.config
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\bin\Debug\QB-Core-Item-Generator.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\bin\Debug\QB-Core-Item-Generator.pdb
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.csproj.AssemblyReference.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.csproj.SuggestedBindingRedirects.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB_Core_Item_Generator.Form1.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB_Core_Item_Generator.Properties.Resources.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.csproj.GenerateResource.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.csproj.CoreCompileInputs.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.pdb
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\bin\Debug\QB-Core-Item-Generator.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\bin\Debug\QB-Core-Item-Generator.application
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\QB-Core-Item-Generator\QB-Core-Item-Generator\obj\Debug\QB-Core-Item-Generator.application
