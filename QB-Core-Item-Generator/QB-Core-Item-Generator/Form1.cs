@@ -25,12 +25,6 @@ namespace QB_Core_Item_Generator
             var multiplier = 1;
             var combinable = "nil";
             var shouldClose = false;
-            var charsToRemove = new string[] { "(", ",", ")", "'", "\"", };
-
-            foreach (var c in charsToRemove)
-            {
-                str = str.Replace(c, string.Empty);
-            }
 
             if (checkBox1.Checked) unique = true;
             else unique = false;
@@ -58,21 +52,43 @@ namespace QB_Core_Item_Generator
                              "      }";
             }
             var item = richTextBox1.Text;
+            var imagename = richTextBox1.Text;
             var label = richTextBox10.Text;
             var weight = richTextBox3.Text;
-            textBox1.Multiline = true;
-            textBox1.Text = $"[\"{item}\"] = " + "{\r\n" +
-                            $"      [\"name\"] = \"{item}\",\r\n" +
-                            $"      [\"label\"] = \"{label}\",\r\n" +
-                            $"      [\"weight\"] = {weight},\r\n" +
-                            $"      [\"type\"] = \"item\",\r\n" +
-                            $"      [\"image\"] = \"{item}.png\",\r\n" +
-                            $"      [\"unique\"] = {unique},\r\n" +
-                            $"      [\"useable\"] = {usable},\r\n" +
-                            $"      [\"shouldClose\"] = {shouldClose},\r\n" +
-                            $"      [\"combinable\"] = {combinable},\r\n" +
-                            $"      [\"description\"] = \"{description}\"\r\n" +
-                            "},";
+            if (checkBox4.Checked == true) imagename = richTextBox11.Text;
+            richTextBox12.Multiline = true;
+            if (checkBox6.Checked == true)
+            {
+                richTextBox12.Text = richTextBox12.Text +
+                                $"[\"{item}\"] = " + "{\r\n" +
+                                $"      [\"name\"] = \"{item}\",\r\n" +
+                                $"      [\"label\"] = \"{label}\",\r\n" +
+                                $"      [\"weight\"] = {weight},\r\n" +
+                                $"      [\"type\"] = \"item\",\r\n" +
+                                $"      [\"image\"] = \"{imagename}.png\",\r\n" +
+                                $"      [\"unique\"] = {unique},\r\n" +
+                                $"      [\"useable\"] = {usable},\r\n" +
+                                $"      [\"shouldClose\"] = {shouldClose},\r\n" +
+                                $"      [\"combinable\"] = {combinable},\r\n" +
+                                $"      [\"description\"] = \"{description}\"\r\n" +
+                                "}," +
+                                "\r\n";
+            }
+            else
+            {
+                richTextBox12.Text = $"[\"{item}\"] = " + "{\r\n" +
+                                $"      [\"name\"] = \"{item}\",\r\n" +
+                                $"      [\"label\"] = \"{label}\",\r\n" +
+                                $"      [\"weight\"] = {weight},\r\n" +
+                                $"      [\"type\"] = \"item\",\r\n" +
+                                $"      [\"image\"] = \"{imagename}.png\",\r\n" +
+                                $"      [\"unique\"] = {unique},\r\n" +
+                                $"      [\"useable\"] = {usable},\r\n" +
+                                $"      [\"shouldClose\"] = {shouldClose},\r\n" +
+                                $"      [\"combinable\"] = {combinable},\r\n" +
+                                $"      [\"description\"] = \"{description}\"\r\n" +
+                                "},";
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -87,7 +103,7 @@ namespace QB_Core_Item_Generator
             richTextBox8.Clear();
             richTextBox9.Clear();
             richTextBox10.Clear();
-            textBox1.Clear();
+            richTextBox12.Clear();
             checkBox1.Checked = false;
             checkBox2.Checked = false;
             checkBox3.Checked = false;
@@ -130,6 +146,20 @@ namespace QB_Core_Item_Generator
                 label7.Visible = false;
                 label8.Visible = false;
                 label9.Visible = false;
+            }
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked == true)
+            { 
+                richTextBox11.Visible = true;
+                label11.Visible = true;
+            }
+            else if (checkBox4.Checked == false)
+            { 
+                richTextBox11.Visible = false;
+                label11.Visible = false;
             }
         }
     }
