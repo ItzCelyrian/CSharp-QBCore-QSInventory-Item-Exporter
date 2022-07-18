@@ -1,4 +1,4 @@
-# CSharp-QBCore-Item-Exporter
+# CSharp-QBCore-QSInventory-Item-Exporter
 A simple Item Generator for the QB/QS Framework. :smile:
 
 ## Preview
