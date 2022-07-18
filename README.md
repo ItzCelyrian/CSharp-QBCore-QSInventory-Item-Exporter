@@ -1,5 +1,5 @@
 # CSharp-QBCore-Item-Exporter
-A simple Item exporter for QB-Core's shared/items.lua
+A simple Item Generator for the QB/QS Framework. :smile:
 
 ## Preview
-https://imgur.com/6bs4oFe
+![Preview Image](https://i.imgur.com/lGz3mir.png)
